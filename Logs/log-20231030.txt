@@ -1,0 +1,56 @@
+2023-10-30 17:01:50.363 +00:00 [INF] Now listening on: https://localhost:7086
+2023-10-30 17:01:50.383 +00:00 [INF] Now listening on: http://localhost:5298
+2023-10-30 17:01:50.385 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 17:01:50.385 +00:00 [INF] Hosting environment: Development
+2023-10-30 17:01:50.385 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-10-30 17:01:50.507 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2915 ms
+2023-10-30 17:01:50.671 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 26.1572 ms
+2023-10-30 17:01:51.694 +00:00 [INF] HTTP GET /apple-touch-icon-precomposed.png responded 404 in 0.6112 ms
+2023-10-30 17:01:51.697 +00:00 [INF] HTTP GET /apple-touch-icon.png responded 404 in 1.5106 ms
+2023-10-30 17:01:52.683 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1982 ms
+2023-10-30 17:01:52.691 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2395 ms
+2023-10-30 17:02:02.698 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0399 ms
+2023-10-30 17:02:02.706 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1460 ms
+2023-10-30 17:02:22.737 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0654 ms
+2023-10-30 17:02:22.740 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1343 ms
+2023-10-30 17:03:02.820 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1220 ms
+2023-10-30 17:03:02.848 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3184 ms
+2023-10-30 17:03:07.239 +00:00 [INF] HTTP POST /api/Account/register responded 200 in 1346.8161 ms
+2023-10-30 17:03:35.252 +00:00 [INF] Connexion de l'utilisateur asmabah@transfert.com
+2023-10-30 17:03:35.556 +00:00 [INF] HTTP POST /api/Account/login responded 200 in 319.8806 ms
+2023-10-30 17:04:17.778 +00:00 [INF] HTTP GET /api/Beneficiere responded 200 in 71.8683 ms
+2023-10-30 17:04:22.911 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0528 ms
+2023-10-30 17:04:22.998 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1989 ms
+2023-10-30 17:06:11.606 +00:00 [INF] Now listening on: https://localhost:7086
+2023-10-30 17:06:11.628 +00:00 [INF] Now listening on: http://localhost:5298
+2023-10-30 17:06:11.629 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-30 17:06:11.629 +00:00 [INF] Hosting environment: Development
+2023-10-30 17:06:11.629 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-10-30 17:06:11.702 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2661 ms
+2023-10-30 17:06:11.851 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 31.7822 ms
+2023-10-30 17:06:13.882 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.9906 ms
+2023-10-30 17:06:13.911 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.8335 ms
+2023-10-30 17:06:24.008 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0522 ms
+2023-10-30 17:06:24.014 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 4.5112 ms
+2023-10-30 17:06:44.067 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0612 ms
+2023-10-30 17:06:44.094 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1468 ms
+2023-10-30 17:07:24.127 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0518 ms
+2023-10-30 17:07:24.184 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3165 ms
+2023-10-30 17:08:10.410 +00:00 [INF] HTTP POST /api/Expediteur responded 201 in 1012.9711 ms
+2023-10-30 17:08:44.290 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0386 ms
+2023-10-30 17:08:44.404 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1140 ms
+2023-10-30 17:09:03.131 +00:00 [INF] HTTP POST /api/Beneficiere responded 201 in 75.7638 ms
+2023-10-30 17:09:24.836 +00:00 [INF] HTTP GET /api/Expediteur/5 responded 200 in 265.2370 ms
+2023-10-30 17:10:51.027 +00:00 [INF] HTTP POST /api/Transfert responded 201 in 67.4423 ms
+2023-10-30 17:11:24.619 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0762 ms
+2023-10-30 17:11:24.808 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1789 ms
+2023-10-30 17:12:17.101 +00:00 [INF] HTTP GET /api/Expediteur/5 responded 200 in 27.9000 ms
+2023-10-30 17:12:45.450 +00:00 [INF] HTTP GET /api/Beneficiere/4 responded 200 in 46.5925 ms
+2023-10-30 17:15:45.541 +00:00 [INF] HTTP GET /api/Transfert/7 responded 200 in 33.3527 ms
+2023-10-30 17:16:00.410 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 130.0892 ms
+2023-10-30 17:16:45.032 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0479 ms
+2023-10-30 17:16:45.173 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3117 ms
+2023-10-30 17:26:45.390 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.2123 ms
+2023-10-30 17:26:45.572 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.6795 ms
+2023-10-30 17:36:45.752 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0516 ms
+2023-10-30 17:36:45.887 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2177 ms

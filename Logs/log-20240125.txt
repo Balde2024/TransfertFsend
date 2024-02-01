@@ -1,0 +1,94 @@
+2024-01-25 19:41:17.846 +01:00 [INF] Now listening on: https://localhost:7086
+2024-01-25 19:41:17.871 +01:00 [INF] Now listening on: http://localhost:5298
+2024-01-25 19:41:17.873 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-25 19:41:17.873 +01:00 [INF] Hosting environment: Development
+2024-01-25 19:41:17.873 +01:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2024-01-25 19:41:17.980 +01:00 [INF] HTTP POST /api/events/raw responded 307 in 1.1644 ms
+2024-01-25 19:41:18.132 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 33.8575 ms
+2024-01-25 19:41:19.927 +01:00 [INF] HTTP GET /apple-touch-icon-precomposed.png responded 404 in 2.9458 ms
+2024-01-25 19:41:20.010 +01:00 [INF] HTTP GET /apple-touch-icon.png responded 404 in 1.9434 ms
+2024-01-25 19:41:20.052 +01:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'ForSendKH.Models.ModelsDto.Beneficiere.BeneficiereDto'.
+System.InvalidOperationException: There was an error reflecting type 'ForSendKH.Models.ModelsDto.Beneficiere.BeneficiereDto'.
+ ---> System.InvalidOperationException: Cannot serialize member 'ForSendKH.Models.ModelsDto.Beneficiere.BeneficiereDto.Transferts' of type 'System.Collections.Generic.IList`1[[ForSendKH.Models.ModelsDto.Transfert.TransfertDto, ForSendKH, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]', see inner exception for more details.
+ ---> System.NotSupportedException: Cannot serialize member ForSendKH.Models.ModelsDto.Beneficiere.BeneficiereDto.Transferts of type System.Collections.Generic.IList`1[[ForSendKH.Models.ModelsDto.Transfert.TransfertDto, ForSendKH, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] because it is an interface.
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.StructModel.CheckSupportedMember(TypeDesc typeDesc, MemberInfo member, Type type)
+   at System.Xml.Serialization.StructModel.GetPropertyModel(PropertyInfo propertyInfo)
+   at System.Xml.Serialization.StructModel.GetFieldModel(MemberInfo memberInfo)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportElement(TypeModel model, XmlRootAttribute root, String defaultNamespace, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2024-01-25 19:41:20.062 +01:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'ForSendKH.Models.Beneficiere'.
+System.InvalidOperationException: There was an error reflecting type 'ForSendKH.Models.Beneficiere'.
+ ---> System.InvalidOperationException: Cannot serialize member 'ForSendKH.Models.Beneficiere.Transferts' of type 'System.Collections.Generic.IList`1[[ForSendKH.Models.Transfert, ForSendKH, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]', see inner exception for more details.
+ ---> System.NotSupportedException: Cannot serialize member ForSendKH.Models.Beneficiere.Transferts of type System.Collections.Generic.IList`1[[ForSendKH.Models.Transfert, ForSendKH, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] because it is an interface.
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.StructModel.CheckSupportedMember(TypeDesc typeDesc, MemberInfo member, Type type)
+   at System.Xml.Serialization.StructModel.GetPropertyModel(PropertyInfo propertyInfo)
+   at System.Xml.Serialization.StructModel.GetFieldModel(MemberInfo memberInfo)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportElement(TypeModel model, XmlRootAttribute root, String defaultNamespace, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2024-01-25 19:41:20.088 +01:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'ForSendKH.Models.ModelsDto.Expediteur.ExpediteurDto'.
+System.InvalidOperationException: There was an error reflecting type 'ForSendKH.Models.ModelsDto.Expediteur.ExpediteurDto'.
+ ---> System.InvalidOperationException: Cannot serialize member 'ForSendKH.Models.ModelsDto.Expediteur.ExpediteurDto.Transferts' of type 'System.Collections.Generic.IList`1[[ForSendKH.Models.ModelsDto.Transfert.TransfertDto, ForSendKH, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]', see inner exception for more details.
+ ---> System.NotSupportedException: Cannot serialize member ForSendKH.Models.ModelsDto.Expediteur.ExpediteurDto.Transferts of type System.Collections.Generic.IList`1[[ForSendKH.Models.ModelsDto.Transfert.TransfertDto, ForSendKH, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] because it is an interface.
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.StructModel.CheckSupportedMember(TypeDesc typeDesc, MemberInfo member, Type type)
+   at System.Xml.Serialization.StructModel.GetPropertyModel(PropertyInfo propertyInfo)
+   at System.Xml.Serialization.StructModel.GetFieldModel(MemberInfo memberInfo)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportElement(TypeModel model, XmlRootAttribute root, String defaultNamespace, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2024-01-25 19:41:20.090 +01:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'ForSendKH.Models.Expediteur'.
+System.InvalidOperationException: There was an error reflecting type 'ForSendKH.Models.Expediteur'.
+ ---> System.InvalidOperationException: Cannot serialize member 'ForSendKH.Models.Expediteur.Transferts' of type 'System.Collections.Generic.IList`1[[ForSendKH.Models.Transfert, ForSendKH, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]', see inner exception for more details.
+ ---> System.NotSupportedException: Cannot serialize member ForSendKH.Models.Expediteur.Transferts of type System.Collections.Generic.IList`1[[ForSendKH.Models.Transfert, ForSendKH, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] because it is an interface.
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.StructModel.CheckSupportedMember(TypeDesc typeDesc, MemberInfo member, Type type)
+   at System.Xml.Serialization.StructModel.GetPropertyModel(PropertyInfo propertyInfo)
+   at System.Xml.Serialization.StructModel.GetFieldModel(MemberInfo memberInfo)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportElement(TypeModel model, XmlRootAttribute root, String defaultNamespace, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2024-01-25 19:41:20.141 +01:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0603 ms
+2024-01-25 19:41:20.144 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.0943 ms
+2024-01-25 19:41:30.225 +01:00 [INF] HTTP POST /api/events/raw responded 307 in 25.2873 ms
+2024-01-25 19:41:30.227 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2078 ms
+2024-01-25 19:41:50.279 +01:00 [INF] HTTP POST /api/events/raw responded 307 in 0.2070 ms
+2024-01-25 19:41:50.283 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2675 ms
+2024-01-25 19:41:54.847 +01:00 [INF] Connexion de l'utilisateur abdourahamane620@gmail.com
+2024-01-25 19:41:55.957 +01:00 [WRN] L'adresse email utilisé abdourahamane620@gmail.com n'existe pas 
+2024-01-25 19:41:55.976 +01:00 [INF] HTTP POST /api/Account/login responded 401 in 1335.8496 ms
+2024-01-25 19:42:30.314 +01:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1246 ms
+2024-01-25 19:42:30.317 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.5490 ms
+2024-01-25 19:43:50.493 +01:00 [INF] HTTP POST /api/events/raw responded 307 in 0.2873 ms
+2024-01-25 19:43:50.567 +01:00 [INF] HTTP POST /api/events/raw responded 404 in 0.7498 ms
+2024-01-25 19:43:53.604 +01:00 [INF] HTTP POST /api/Account/register responded 200 in 488.5892 ms
+2024-01-25 19:44:49.049 +01:00 [INF] Connexion de l'utilisateur Balde@transfert.fr
+2024-01-25 19:44:49.444 +01:00 [INF] HTTP POST /api/Account/login responded 200 in 414.6284 ms
+2024-01-25 19:45:18.809 +01:00 [INF] HTTP GET /api/Beneficiere/GetBeneficieres responded 401 in 15.2908 ms

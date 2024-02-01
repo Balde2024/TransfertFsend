@@ -1,0 +1,1205 @@
+2023-11-02 17:13:22.204 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 17:13:22.225 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 17:13:22.226 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 17:13:22.226 +00:00 [INF] Hosting environment: Development
+2023-11-02 17:13:22.226 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 17:13:22.302 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2672 ms
+2023-11-02 17:13:22.427 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.1424 ms
+2023-11-02 17:13:24.484 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.4347 ms
+2023-11-02 17:13:24.513 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.3773 ms
+2023-11-02 17:13:34.616 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 25.1510 ms
+2023-11-02 17:13:34.618 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.0817 ms
+2023-11-02 17:13:35.262 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1565.8393 ms
+2023-11-02 17:13:54.651 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0370 ms
+2023-11-02 17:13:54.677 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2620 ms
+2023-11-02 17:14:09.291 +00:00 [INF] HTTP PUT /api/Transfert/Executer9 responded 204 in 259.9933 ms
+2023-11-02 17:14:34.807 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0696 ms
+2023-11-02 17:14:34.836 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.4326 ms
+2023-11-02 17:15:54.895 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0289 ms
+2023-11-02 17:15:54.948 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1156 ms
+2023-11-02 17:16:05.370 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 17:16:05.391 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 17:16:05.392 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 17:16:05.392 +00:00 [INF] Hosting environment: Development
+2023-11-02 17:16:05.392 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 17:16:05.521 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3617 ms
+2023-11-02 17:16:05.647 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 32.7723 ms
+2023-11-02 17:16:07.706 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.0727 ms
+2023-11-02 17:16:07.710 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.9060 ms
+2023-11-02 17:16:17.761 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1035 ms
+2023-11-02 17:16:17.768 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 4.3318 ms
+2023-11-02 17:16:22.632 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ForSendKH.DataContext.TransfertDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-02 17:16:22.790 +00:00 [ERR] HTTP PUT /api/Transfert/Executer9 responded 500 in 1039.6748 ms
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-02 17:16:22.807 +00:00 [ERR] Something Went while processing /api/Transfert/Executer9
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-02 17:16:22.876 +00:00 [ERR] An error occurred using the connection to database 'ForSendKhDb' on server 'localhost,1433'.
+2023-11-02 17:16:37.798 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.2688 ms
+2023-11-02 17:16:37.896 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1589 ms
+2023-11-02 17:17:23.717 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 17:17:23.739 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 17:17:23.740 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 17:17:23.740 +00:00 [INF] Hosting environment: Development
+2023-11-02 17:17:23.740 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 17:17:23.865 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3371 ms
+2023-11-02 17:17:24.037 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.8157 ms
+2023-11-02 17:17:26.095 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.8615 ms
+2023-11-02 17:17:26.123 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.6451 ms
+2023-11-02 17:17:36.297 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.4108 ms
+2023-11-02 17:17:36.307 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 4.6827 ms
+2023-11-02 17:18:03.862 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.0439 ms
+2023-11-02 17:19:07.609 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.0943 ms
+2023-11-02 17:21:35.693 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 17:21:35.714 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 17:21:35.715 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 17:21:35.715 +00:00 [INF] Hosting environment: Development
+2023-11-02 17:21:35.716 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 17:21:35.790 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.4273 ms
+2023-11-02 17:21:35.908 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 30.2650 ms
+2023-11-02 17:21:37.939 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.8420 ms
+2023-11-02 17:21:37.943 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.0410 ms
+2023-11-02 17:21:43.941 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1435.6829 ms
+2023-11-02 17:21:48.023 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0540 ms
+2023-11-02 17:21:48.047 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1976 ms
+2023-11-02 17:22:08.051 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0397 ms
+2023-11-02 17:22:08.058 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2654 ms
+2023-11-02 17:22:31.069 +00:00 [INF] HTTP POST /api/Transfert responded 201 in 198.7910 ms
+2023-11-02 17:22:48.129 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1071 ms
+2023-11-02 17:22:48.159 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1644 ms
+2023-11-02 17:23:20.777 +00:00 [INF] HTTP GET /api/Transfert/10 responded 200 in 92.5397 ms
+2023-11-02 17:24:08.209 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0408 ms
+2023-11-02 17:24:08.314 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1411 ms
+2023-11-02 17:24:42.651 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ForSendKH.DataContext.TransfertDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-02 17:24:42.806 +00:00 [ERR] HTTP PUT /api/Transfert/Executer10 responded 500 in 207.3257 ms
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-02 17:24:42.821 +00:00 [ERR] Something Went while processing /api/Transfert/Executer10
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-02 17:25:09.563 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ForSendKH.DataContext.TransfertDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-02 17:25:09.689 +00:00 [ERR] HTTP PUT /api/Transfert/Executer10 responded 500 in 157.9442 ms
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-02 17:25:09.703 +00:00 [ERR] Something Went while processing /api/Transfert/Executer10
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-02 17:25:40.273 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ForSendKH.DataContext.TransfertDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-02 17:25:40.380 +00:00 [ERR] HTTP PUT /api/Transfert/Executer10 responded 500 in 113.1980 ms
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-02 17:25:40.393 +00:00 [ERR] Something Went while processing /api/Transfert/Executer10
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-02 17:25:45.110 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ForSendKH.DataContext.TransfertDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-02 17:25:45.260 +00:00 [ERR] HTTP PUT /api/Transfert/Executer10 responded 500 in 155.9563 ms
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-02 17:25:45.275 +00:00 [ERR] Something Went while processing /api/Transfert/Executer10
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-02 17:26:48.845 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 17:26:48.865 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 17:26:48.867 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 17:26:48.867 +00:00 [INF] Hosting environment: Development
+2023-11-02 17:26:48.868 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 17:26:48.969 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2920 ms
+2023-11-02 17:26:49.088 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.6567 ms
+2023-11-02 17:26:51.097 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.3989 ms
+2023-11-02 17:26:51.127 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.1420 ms
+2023-11-02 17:27:01.205 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0842 ms
+2023-11-02 17:27:01.211 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.9618 ms
+2023-11-02 17:27:09.933 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ForSendKH.DataContext.TransfertDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-02 17:27:10.092 +00:00 [ERR] HTTP PUT /api/Transfert/Executer10 responded 500 in 1065.4955 ms
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-02 17:27:10.109 +00:00 [ERR] Something Went while processing /api/Transfert/Executer10
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-02 17:27:10.205 +00:00 [ERR] An error occurred using the connection to database 'ForSendKhDb' on server 'localhost,1433'.
+2023-11-02 17:27:21.270 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.2042 ms
+2023-11-02 17:27:21.275 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1978 ms
+2023-11-02 17:27:22.245 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 574.0364 ms
+2023-11-02 17:27:46.953 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 17:27:46.975 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 17:27:46.976 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 17:27:46.976 +00:00 [INF] Hosting environment: Development
+2023-11-02 17:27:46.976 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 17:27:47.050 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2760 ms
+2023-11-02 17:27:47.173 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.9382 ms
+2023-11-02 17:27:49.182 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.4530 ms
+2023-11-02 17:27:49.265 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.6152 ms
+2023-11-02 17:27:59.364 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.6795 ms
+2023-11-02 17:27:59.391 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.7320 ms
+2023-11-02 17:28:04.604 +00:00 [INF] HTTP PUT /api/Transfert/Executer10 responded 204 in 1161.2749 ms
+2023-11-02 17:28:13.128 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 519.3776 ms
+2023-11-02 17:28:19.443 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0392 ms
+2023-11-02 17:28:19.449 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1487 ms
+2023-11-02 17:31:21.926 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 17:31:21.948 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 17:31:21.948 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 17:31:21.949 +00:00 [INF] Hosting environment: Development
+2023-11-02 17:31:21.949 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 17:31:22.025 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3403 ms
+2023-11-02 17:31:22.146 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.4846 ms
+2023-11-02 17:31:24.158 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.0721 ms
+2023-11-02 17:31:24.183 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.7405 ms
+2023-11-02 17:31:34.334 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 25.0729 ms
+2023-11-02 17:31:34.340 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.9786 ms
+2023-11-02 17:34:57.738 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0542 ms
+2023-11-02 17:34:58.422 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2458 ms
+2023-11-02 17:37:52.902 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0702 ms
+2023-11-02 17:39:37.377 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 17:39:37.399 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 17:39:37.400 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 17:39:37.401 +00:00 [INF] Hosting environment: Development
+2023-11-02 17:39:37.401 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 17:39:37.498 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.4090 ms
+2023-11-02 17:39:37.617 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.3842 ms
+2023-11-02 17:39:39.747 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.9964 ms
+2023-11-02 17:39:39.750 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.5058 ms
+2023-11-02 17:39:49.893 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1148 ms
+2023-11-02 17:39:49.901 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 4.0732 ms
+2023-11-02 17:39:56.357 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ForSendKH.DataContext.TransfertDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-02 17:39:56.514 +00:00 [ERR] HTTP PUT /api/Transfert/Executer10 responded 500 in 1051.3140 ms
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-02 17:39:56.531 +00:00 [ERR] Something Went while processing /api/Transfert/Executer10
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-02 17:39:56.600 +00:00 [ERR] An error occurred using the connection to database 'ForSendKhDb' on server 'localhost,1433'.
+2023-11-02 17:40:09.960 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0413 ms
+2023-11-02 17:40:10.014 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.4103 ms
+2023-11-02 17:40:11.347 +00:00 [INF] HTTP GET /api/Transfert/GetInformationROGR3VDH responded 200 in 160.9558 ms
+2023-11-02 17:40:20.600 +00:00 [INF] HTTP GET /api/Transfert/GetInformationROGR3VDI responded 404 in 61.2788 ms
+2023-11-02 17:41:49.936 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 17:41:49.957 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 17:41:49.958 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 17:41:49.958 +00:00 [INF] Hosting environment: Development
+2023-11-02 17:41:49.958 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 17:41:50.113 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.4113 ms
+2023-11-02 17:41:50.285 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.7895 ms
+2023-11-02 17:41:52.363 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.5647 ms
+2023-11-02 17:41:52.410 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.6083 ms
+2023-11-02 17:42:02.487 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.8206 ms
+2023-11-02 17:42:02.540 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 4.3913 ms
+2023-11-02 17:42:11.620 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ForSendKH.DataContext.TransfertDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-02 17:42:11.777 +00:00 [ERR] HTTP PUT /api/Transfert/Executer10 responded 500 in 1035.2714 ms
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-02 17:42:11.793 +00:00 [ERR] Something Went while processing /api/Transfert/Executer10
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-02 17:42:11.862 +00:00 [ERR] An error occurred using the connection to database 'ForSendKhDb' on server 'localhost,1433'.
+2023-11-02 17:42:22.552 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0622 ms
+2023-11-02 17:42:22.558 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1763 ms
+2023-11-02 17:44:16.984 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 17:44:17.007 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 17:44:17.008 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 17:44:17.008 +00:00 [INF] Hosting environment: Development
+2023-11-02 17:44:17.008 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 17:44:17.084 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3213 ms
+2023-11-02 17:44:17.311 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.7133 ms
+2023-11-02 17:44:19.344 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.1603 ms
+2023-11-02 17:44:19.349 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.4782 ms
+2023-11-02 17:44:29.476 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1329 ms
+2023-11-02 17:44:29.482 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.8530 ms
+2023-11-02 17:44:35.194 +00:00 [INF] HTTP PUT /api/Transfert/Executer10 responded 400 in 898.3355 ms
+2023-11-02 17:44:35.200 +00:00 [ERR] An error occurred using the connection to database 'ForSendKhDb' on server 'localhost,1433'.
+2023-11-02 17:44:45.233 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ForSendKH.DataContext.TransfertDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2023-11-02 17:44:45.415 +00:00 [ERR] HTTP PUT /api/Transfert/Executer10 responded 500 in 284.6565 ms
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-02 17:44:45.452 +00:00 [ERR] Something Went while processing /api/Transfert/Executer10
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAsync(Nullable`1 id) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 73
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 136
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-02 17:44:49.514 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0474 ms
+2023-11-02 17:44:49.518 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1717 ms
+2023-11-02 17:45:29.549 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0370 ms
+2023-11-02 17:45:29.552 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.0971 ms
+2023-11-02 17:45:53.803 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 17:45:53.825 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 17:45:53.826 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 17:45:53.826 +00:00 [INF] Hosting environment: Development
+2023-11-02 17:45:53.826 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 17:45:53.927 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3563 ms
+2023-11-02 17:45:54.100 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 30.4920 ms
+2023-11-02 17:45:56.157 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 22.3674 ms
+2023-11-02 17:45:56.212 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.2600 ms
+2023-11-02 17:46:06.221 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0460 ms
+2023-11-02 17:46:06.227 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.0018 ms
+2023-11-02 17:46:22.173 +00:00 [INF] HTTP GET /api/Transfert/10 responded 200 in 1086.0868 ms
+2023-11-02 17:46:26.233 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0389 ms
+2023-11-02 17:46:26.238 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1828 ms
+2023-11-02 17:46:33.498 +00:00 [INF] HTTP PUT /api/Transfert/Executer10 responded 204 in 162.3309 ms
+2023-11-02 17:46:46.840 +00:00 [INF] HTTP GET /api/Transfert/10 responded 200 in 26.9632 ms
+2023-11-02 17:47:02.706 +00:00 [ERR] An exception occurred in the database while saving changes for context type 'ForSendKH.DataContext.TransfertDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-11-02 17:47:02.885 +00:00 [ERR] HTTP PUT /api/Transfert/Executer10 responded 500 in 280.3800 ms
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.UpdateAsync(T entity) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 79
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 151
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-02 17:47:02.939 +00:00 [ERR] Something Went while processing /api/Transfert/Executer10
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.UpdateAsync(T entity) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 79
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 151
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-02 17:47:06.248 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0664 ms
+2023-11-02 17:47:06.252 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2628 ms
+2023-11-02 17:47:37.106 +00:00 [ERR] An exception occurred in the database while saving changes for context type 'ForSendKH.DataContext.TransfertDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-11-02 17:47:37.210 +00:00 [ERR] HTTP PUT /api/Transfert/Executer10 responded 500 in 212.6255 ms
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.UpdateAsync(T entity) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 79
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 151
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-02 17:47:37.250 +00:00 [ERR] Something Went while processing /api/Transfert/Executer10
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.UpdateAsync(T entity) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 79
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 151
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-02 17:47:40.597 +00:00 [ERR] An exception occurred in the database while saving changes for context type 'ForSendKH.DataContext.TransfertDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-11-02 17:47:40.710 +00:00 [ERR] HTTP PUT /api/Transfert/Executer10 responded 500 in 127.4563 ms
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.UpdateAsync(T entity) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 79
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 151
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-02 17:47:40.749 +00:00 [ERR] Something Went while processing /api/Transfert/Executer10
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.UpdateAsync(T entity) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 79
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 151
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-02 19:20:15.494 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 19:20:15.516 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 19:20:15.517 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 19:20:15.517 +00:00 [INF] Hosting environment: Development
+2023-11-02 19:20:15.517 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 19:20:15.644 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3524 ms
+2023-11-02 19:20:15.804 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.9157 ms
+2023-11-02 19:20:17.812 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.4378 ms
+2023-11-02 19:20:17.815 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.1850 ms
+2023-11-02 19:20:27.842 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0462 ms
+2023-11-02 19:20:27.869 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.0811 ms
+2023-11-02 19:20:28.244 +00:00 [INF] HTTP GET /api/Transfert/10 responded 200 in 1162.2478 ms
+2023-11-02 19:20:47.921 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1098 ms
+2023-11-02 19:20:47.925 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1502 ms
+2023-11-02 19:21:27.977 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0444 ms
+2023-11-02 19:21:28.001 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1429 ms
+2023-11-02 19:22:55.486 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 19:22:55.508 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 19:22:55.509 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 19:22:55.509 +00:00 [INF] Hosting environment: Development
+2023-11-02 19:22:55.509 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 19:22:55.687 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2700 ms
+2023-11-02 19:22:55.887 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 35.1743 ms
+2023-11-02 19:22:57.945 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.6869 ms
+2023-11-02 19:22:57.952 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.7513 ms
+2023-11-02 19:23:07.986 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0852 ms
+2023-11-02 19:23:07.993 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 4.3305 ms
+2023-11-02 19:23:26.154 +00:00 [INF] HTTP PUT /api/Transfert/Executer10 responded 204 in 1203.3500 ms
+2023-11-02 19:23:28.067 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0780 ms
+2023-11-02 19:23:28.101 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2303 ms
+2023-11-02 19:24:08.153 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0541 ms
+2023-11-02 19:24:08.157 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.5477 ms
+2023-11-02 19:25:09.539 +00:00 [INF] HTTP GET /api/Transfert/10 responded 200 in 86.6006 ms
+2023-11-02 19:25:28.213 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0426 ms
+2023-11-02 19:25:28.328 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1559 ms
+2023-11-02 19:25:40.072 +00:00 [ERR] An exception occurred in the database while saving changes for context type 'ForSendKH.DataContext.TransfertDbContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-11-02 19:25:40.242 +00:00 [ERR] HTTP PUT /api/Transfert/Executer10 responded 500 in 212.3068 ms
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.UpdateAsync(T entity) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 79
+   at ForSendKH.Controllers.TransfertController.ExecuterTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 148
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-02 19:25:40.298 +00:00 [ERR] Something Went while processing /api/Transfert/Executer10
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.UpdateAsync(T entity) in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 79
+   at ForSendKH.Controllers.TransfertController.ExecuterTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 148
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-02 19:31:20.824 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 19:31:20.847 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 19:31:20.847 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 19:31:20.847 +00:00 [INF] Hosting environment: Development
+2023-11-02 19:31:20.848 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 19:31:20.921 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3658 ms
+2023-11-02 19:31:21.043 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.5675 ms
+2023-11-02 19:31:23.098 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 21.9608 ms
+2023-11-02 19:31:23.103 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.7471 ms
+2023-11-02 19:31:33.110 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0547 ms
+2023-11-02 19:31:33.116 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.8531 ms
+2023-11-02 19:31:48.754 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1446.9356 ms
+2023-11-02 19:31:53.165 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0590 ms
+2023-11-02 19:31:53.240 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 25.5590 ms
+2023-11-02 19:32:03.230 +00:00 [INF] HTTP PUT /api/Transfert/Executer10 responded 400 in 38.7385 ms
+2023-11-02 19:32:18.910 +00:00 [INF] HTTP PUT /api/Transfert/Executer10 responded 204 in 268.9881 ms
+2023-11-02 19:32:33.313 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 22.1389 ms
+2023-11-02 19:32:33.338 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2105 ms
+2023-11-02 19:32:35.776 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 119.2970 ms
+2023-11-02 19:37:58.068 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 19:37:58.090 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 19:37:58.091 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 19:37:58.091 +00:00 [INF] Hosting environment: Development
+2023-11-02 19:37:58.091 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 19:37:58.193 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2628 ms
+2023-11-02 19:37:58.343 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.9327 ms
+2023-11-02 19:38:00.376 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.7922 ms
+2023-11-02 19:38:00.380 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.5276 ms
+2023-11-02 19:38:10.457 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0725 ms
+2023-11-02 19:38:10.464 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.9297 ms
+2023-11-02 19:38:54.305 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0729 ms
+2023-11-02 19:38:54.501 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2738 ms
+2023-11-02 19:44:03.941 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 19:44:03.989 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 19:44:03.990 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 19:44:03.990 +00:00 [INF] Hosting environment: Development
+2023-11-02 19:44:03.990 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 19:44:04.143 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3151 ms
+2023-11-02 19:44:04.292 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.9254 ms
+2023-11-02 19:44:06.302 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.6209 ms
+2023-11-02 19:44:06.332 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.9220 ms
+2023-11-02 19:44:16.433 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0556 ms
+2023-11-02 19:44:16.439 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.3209 ms
+2023-11-02 19:44:21.755 +00:00 [INF] HTTP PUT /api/Transfert/Executer10 responded 204 in 1181.1511 ms
+2023-11-02 19:44:36.445 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0446 ms
+2023-11-02 19:44:36.535 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3662 ms
+2023-11-02 19:45:16.652 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 29.4826 ms
+2023-11-02 19:45:16.687 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2842 ms
+2023-11-02 20:28:03.744 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 20:28:03.766 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 20:28:03.767 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 20:28:03.767 +00:00 [INF] Hosting environment: Development
+2023-11-02 20:28:03.767 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 20:28:03.868 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3178 ms
+2023-11-02 20:28:04.047 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 35.5585 ms
+2023-11-02 20:28:06.056 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.7320 ms
+2023-11-02 20:28:06.086 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.9633 ms
+2023-11-02 20:28:14.707 +00:00 [INF] HTTP GET /api/Transfert/10 responded 200 in 1089.9694 ms
+2023-11-02 20:28:16.140 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0565 ms
+2023-11-02 20:28:16.143 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2185 ms
+2023-11-02 20:28:36.269 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 22.8379 ms
+2023-11-02 20:28:36.276 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2250 ms
+2023-11-02 20:29:01.837 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 20:29:01.860 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 20:29:01.861 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 20:29:01.861 +00:00 [INF] Hosting environment: Development
+2023-11-02 20:29:01.861 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 20:29:01.935 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2996 ms
+2023-11-02 20:29:02.101 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 35.1014 ms
+2023-11-02 20:29:04.135 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.4070 ms
+2023-11-02 20:29:04.164 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.6804 ms
+2023-11-02 20:29:14.264 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1914 ms
+2023-11-02 20:29:14.272 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 4.3994 ms
+2023-11-02 20:29:34.346 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0995 ms
+2023-11-02 20:29:34.353 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2031 ms
+2023-11-02 20:30:32.096 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 20:30:32.117 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 20:30:32.118 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 20:30:32.118 +00:00 [INF] Hosting environment: Development
+2023-11-02 20:30:32.118 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 20:30:32.291 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3948 ms
+2023-11-02 20:30:32.414 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 35.0026 ms
+2023-11-02 20:30:34.448 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.9295 ms
+2023-11-02 20:30:34.452 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.4882 ms
+2023-11-02 20:30:44.462 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0448 ms
+2023-11-02 20:30:44.468 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.0590 ms
+2023-11-02 20:30:50.843 +00:00 [ERR] HTTP PUT /api/Transfert/Executer responded 500 in 1225.3811 ms
+ForSendKH.Exceptions.NotFoundException: ExecuterTransfert (0) was not found
+   at ForSendKH.Controllers.TransfertController.ExecuterTransfert(ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 134
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-02 20:30:50.898 +00:00 [ERR] Something Went while processing /api/Transfert/Executer
+ForSendKH.Exceptions.NotFoundException: ExecuterTransfert (0) was not found
+   at ForSendKH.Controllers.TransfertController.ExecuterTransfert(ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 134
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_9>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 138
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-02 20:31:04.548 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 25.2262 ms
+2023-11-02 20:31:04.577 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1255 ms
+2023-11-02 20:31:30.616 +00:00 [INF] HTTP PUT /api/Transfert/Executer responded 204 in 31.9466 ms
+2023-11-02 20:31:39.292 +00:00 [INF] HTTP PUT /api/Transfert/Executer responded 404 in 59.4263 ms
+2023-11-02 20:31:44.584 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0402 ms
+2023-11-02 20:31:44.635 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1854 ms
+2023-11-02 20:32:32.687 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 20:32:32.709 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 20:32:32.709 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 20:32:32.710 +00:00 [INF] Hosting environment: Development
+2023-11-02 20:32:32.710 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 20:32:32.919 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3600 ms
+2023-11-02 20:32:33.067 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.1239 ms
+2023-11-02 20:32:35.124 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 25.5191 ms
+2023-11-02 20:32:35.128 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.4998 ms
+2023-11-02 20:32:45.199 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0831 ms
+2023-11-02 20:32:45.205 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 4.4453 ms
+2023-11-02 20:38:44.656 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 20:38:44.677 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 20:38:44.678 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 20:38:44.678 +00:00 [INF] Hosting environment: Development
+2023-11-02 20:38:44.678 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 20:38:44.802 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3643 ms
+2023-11-02 20:38:44.977 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.5894 ms
+2023-11-02 20:38:46.984 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.5118 ms
+2023-11-02 20:38:46.986 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.7268 ms
+2023-11-02 20:38:57.015 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0500 ms
+2023-11-02 20:38:57.021 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.2130 ms
+2023-11-02 20:38:58.267 +00:00 [INF] HTTP PUT /api/Transfert/Executer responded 204 in 1107.4542 ms
+2023-11-02 20:39:09.072 +00:00 [INF] HTTP GET /api/Transfert/10 responded 200 in 69.7173 ms
+2023-11-02 20:39:17.076 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.2699 ms
+2023-11-02 20:39:17.102 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 21.2718 ms
+2023-11-02 20:39:57.157 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.8888 ms
+2023-11-02 20:39:57.164 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1785 ms
+2023-11-02 20:41:17.263 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0749 ms
+2023-11-02 20:41:17.327 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1400 ms
+2023-11-02 20:46:11.102 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 20:46:11.124 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 20:46:11.125 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 20:46:11.125 +00:00 [INF] Hosting environment: Development
+2023-11-02 20:46:11.125 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 20:46:11.303 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3732 ms
+2023-11-02 20:46:11.431 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.7789 ms
+2023-11-02 20:46:13.510 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.9721 ms
+2023-11-02 20:46:13.516 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.8615 ms
+2023-11-02 20:46:23.669 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 24.7570 ms
+2023-11-02 20:46:23.703 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 4.3158 ms
+2023-11-02 20:46:41.808 +00:00 [INF] HTTP GET /api/Transfert/10 responded 200 in 1115.5660 ms
+2023-11-02 20:46:43.781 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.3564 ms
+2023-11-02 20:46:43.785 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1644 ms
+2023-11-02 20:47:17.694 +00:00 [INF] HTTP PUT /api/Transfert/Executer responded 204 in 88.4790 ms
+2023-11-02 20:47:23.814 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0576 ms
+2023-11-02 20:47:23.817 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1617 ms
+2023-11-02 20:47:28.419 +00:00 [INF] HTTP GET /api/Transfert/10 responded 200 in 149.6583 ms
+2023-11-02 20:49:27.804 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 20:49:27.826 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 20:49:27.827 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 20:49:27.827 +00:00 [INF] Hosting environment: Development
+2023-11-02 20:49:27.827 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 20:49:27.976 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3265 ms
+2023-11-02 20:49:28.096 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.9938 ms
+2023-11-02 20:49:30.131 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.4706 ms
+2023-11-02 20:49:30.158 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.9608 ms
+2023-11-02 20:49:40.215 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 25.1706 ms
+2023-11-02 20:49:40.221 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.0948 ms
+2023-11-02 20:49:59.234 +00:00 [INF] HTTP GET /api/Transfert/10 responded 200 in 1099.8670 ms
+2023-11-02 20:50:00.271 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0602 ms
+2023-11-02 20:50:00.274 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2352 ms
+2023-11-02 20:50:17.848 +00:00 [INF] HTTP PUT /api/Transfert/Executer responded 204 in 157.1682 ms
+2023-11-02 20:50:34.050 +00:00 [INF] HTTP GET /api/Transfert/10 responded 200 in 31.8889 ms
+2023-11-02 20:50:40.401 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 25.4598 ms
+2023-11-02 20:50:40.403 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1446 ms
+2023-11-02 20:54:38.562 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-02 20:54:38.584 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-02 20:54:38.585 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-02 20:54:38.586 +00:00 [INF] Hosting environment: Development
+2023-11-02 20:54:38.586 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-02 20:54:38.687 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3321 ms
+2023-11-02 20:54:38.811 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.0277 ms
+2023-11-02 20:54:40.846 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 2.0770 ms
+2023-11-02 20:54:40.851 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.7022 ms
+2023-11-02 20:54:50.932 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0670 ms
+2023-11-02 20:54:50.938 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.0579 ms
+2023-11-02 20:54:54.199 +00:00 [INF] HTTP PUT /api/Transfert/Executer responded 404 in 1061.5619 ms
+2023-11-02 20:55:11.041 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.2077 ms
+2023-11-02 20:55:11.072 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 26.6680 ms

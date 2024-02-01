@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ForSendKH</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:ForSendKH.Controllers.AccountController.#ctor(ForSendKH.Contracts.IAuthManager,Microsoft.Extensions.Logging.ILogger{ForSendKH.Controllers.AccountController})" -->
+        <member name="M:ForSendKH.Controllers.AccountController.Register(ForSendKH.Models.ModelsDto.Users.ApiUserDto)">
+            <summary>
+            Permet de s'inscrire 
+            </summary>
+            <param name="apiUserDto">objet de ApiUserDto</param>
+            <returns>Retourne le resultat de l'action , si bon ou pas</returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.AccountController.Login(ForSendKH.Models.ModelsDto.Users.LoginDto)">
+            <summary>
+            Permet de se connecter a l'application
+            </summary>
+            <param name="loginDto">objet de LoginDto</param>
+            <returns>Retourne les informations d'enregistrement et le token de connexion</returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.AccountController.Refreshtoken(ForSendKH.Models.ModelsDto.Users.AuthResponseDto)">
+            <summary>
+            Permet d'actualiser le token
+            </summary>
+            <param name="request">objet AuthResponseDto</param>
+            <returns>Retourne les informations d'enregistrement et le nouveau token de connexion</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:ForSendKH.Controllers.BeneficiereController.#ctor(ForSendKH.Contracts.IBeneficiereRepository,AutoMapper.IMapper)" -->
+        <member name="M:ForSendKH.Controllers.BeneficiereController.GetBeneficieres">
+            <summary>
+            Retourne la liste des beneficieres 
+            </summary>
+            <returns>Retourne les beneficieres</returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.BeneficiereController.GetBeneficiere(System.Int32)">
+            <summary>
+            Retourne le beneficiere recherche a traver l'identifiant 
+            </summary>
+            <param name="id"> l'identifiant du beneficiere</param>
+            <returns>Retourne le beneficiere </returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.BeneficiereController.PutBeneficiere(System.Int32,ForSendKH.Models.ModelsDto.Beneficiere.UpdateBeneficiereDto)">
+            <summary>
+            Mise à jour des information du beneficiere
+            </summary>
+            <param name="id"> l'identifiant du beneficiere </param>
+            <param name="updateBeneficiere"> objet de UpdateBeneficiereDto </param>
+            <returns> Retourne le status de la reponse </returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.BeneficiereController.PostBeneficiere(ForSendKH.Models.ModelsDto.Beneficiere.CreateBeneficiereDto)">
+            <summary>
+            Ajout d'un beneficiere
+            </summary>
+            <param name="createBeneficiere"> objet de CreateBeneficiereDto </param>
+            <returns>Retourne le beneficiere ajoute </returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.BeneficiereController.DeleteBeneficiere(System.Int32)">
+            <summary>
+            Supprime le beneficiere
+            </summary>
+            <param name="id"> l'identifiant du beneficiere </param>
+            <returns> Retourne le status de la reponse </returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.ExpediteurController.#ctor(ForSendKH.Contracts.IExpediteurRepository,AutoMapper.IMapper)">
+            <summary>
+            Le controleur pour injection de dependance
+            </summary>
+            <param name="expediteurRepository">objet IExpediteurRepository </param>
+            <param name="mapper">objet IMapper </param>
+        </member>
+        <member name="M:ForSendKH.Controllers.ExpediteurController.GetExpediteurs">
+            <summary>
+            Retourne les informations sur les expediteurs.
+            </summary>
+            <returns>Liste des expediteurs et leurs informations</returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.ExpediteurController.GetPageExpediteurs(ForSendKH.Models.QueryParameters)">
+            <summary>
+            Retourne les informations sur les expediteurs par tri.
+            </summary>
+            <param name="queryParameters"> objet QueryParameters </param>
+            <returns>Retourn les informations des expediteurs en fonctions du besoins</returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.ExpediteurController.GetExpediteur(System.Int32)">
+            <summary>
+            Retourne les informations d'un expediteur
+            Accessible aux administrateurs
+            </summary>
+            <param name="id">Id de l'expediteur</param>
+            <returns>Retourne l'expediteur en question</returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.ExpediteurController.PutExpediteur(System.Int32,ForSendKH.Models.ModelsDto.Expediteur.UpdateExpediteurDto)">
+            <summary>
+            Mise à jour d'un expediteur
+            Accessible aux administrateurs
+            </summary>
+            <param name="updateExpediteur">objet expediteur</param>
+            <param name="id">Id de l'expediteur</param>
+            <returns>Retourne l'expediteur ayant fait l'objet d'une mise à jour</returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.ExpediteurController.PostExpediteur(ForSendKH.Models.ModelsDto.Expediteur.CreateExpediteurDto)">
+            <summary>
+            Ajouter un expediteur
+            </summary>
+            <param name="createExpediteur">objet expediteur</param>
+            <returns>Retourne l'expediteur créer </returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.ExpediteurController.DeleteExpediteur(System.Int32)">
+            <summary>
+            Permet de supprimer un expediteur. 
+            </summary>
+            <param name="id">represente l'identificant de l'expediteur</param>
+            <returns>l'état de la suppression</returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.TransfertController.#ctor(ForSendKH.Contracts.ITransfertRepository,AutoMapper.IMapper)">
+            <summary>
+            Le controleur pour injection de dependance
+            </summary>
+            <param name="transfertRepository">objet ITransfertRepository</param>
+            <param name="mapper">objet IMapper </param>
+        </member>
+        <member name="M:ForSendKH.Controllers.TransfertController.GetTransferts">
+            <summary>
+            Retourne la liste des transfert 
+            </summary>
+            <returns>Retourne les transfert</returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.TransfertController.GetTransfert(System.Int32)">
+            <summary>
+            Retourne le transfert recherché a traver l'identifiant 
+            </summary>
+            <param name="id"> l'identifiant du transfert</param>
+            <returns>Retourne le transfert </returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.TransfertController.GetInformationTransfert(System.String)">
+            <summary>
+            Recuperer des information du transfert
+            </summary>
+            <param name="codeTransfert"> le code du transfert </param>
+            <returns> Retourne le status de la reponse et les informations </returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.TransfertController.PutTransfert(System.Int32,ForSendKH.Models.ModelsDto.Transfert.UpdateTransfertDto)">
+            <summary>
+            Mise à jour des information du transfert
+            </summary>
+            <param name="id"> l'identifiant du transfert </param>
+            <param name="updateTransfert"> objet de UpdateTransfertDto </param>
+            <returns> Retourne le status de la reponse </returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.TransfertController.ExecuterTransfert(System.Int32,ForSendKH.Models.ModelsDto.Transfert.ExecuteTransactDto)">
+            <summary>
+            Permet de faire le retrait du transfert et une mise à jour des information du transfert est effectué
+            </summary>
+            <param name="id"> l'identifiant du transfert </param>
+            <param name="executeTransact"> objet de ExecuteTransactDto </param>
+            <returns> Retourne le status de la reponse </returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.TransfertController.PostTransfert(ForSendKH.Models.ModelsDto.Transfert.CreateTransfertDto)">
+            <summary>
+            Ajout d'un transfert
+            </summary>
+            <param name="createTransfert"> objet de CreateTransfertDto </param>
+            <returns>Retourne le transfert ajoute </returns>
+        </member>
+        <member name="M:ForSendKH.Controllers.TransfertController.DeleteTransfert(System.Int32)">
+            <summary>
+            Supprime le transfert
+            </summary>
+            <param name="id"> l'identifiant du transfert </param>
+            <returns> Retourne le status de la reponse </returns>
+        </member>
+        <member name="T:ForSendKH.Migrations.defaultRole">
+            <inheritdoc />
+        </member>
+        <member name="M:ForSendKH.Migrations.defaultRole.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForSendKH.Migrations.defaultRole.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForSendKH.Migrations.defaultRole.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ForSendKH.Migrations.defaultRol">
+            <inheritdoc />
+        </member>
+        <member name="M:ForSendKH.Migrations.defaultRol.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForSendKH.Migrations.defaultRol.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForSendKH.Migrations.defaultRol.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ForSendKH.Migrations.defaultRo">
+            <inheritdoc />
+        </member>
+        <member name="M:ForSendKH.Migrations.defaultRo.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForSendKH.Migrations.defaultRo.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForSendKH.Migrations.defaultRo.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ForSendKH.Migrations.defaultR">
+            <inheritdoc />
+        </member>
+        <member name="M:ForSendKH.Migrations.defaultR.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForSendKH.Migrations.defaultR.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ForSendKH.Migrations.defaultR.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

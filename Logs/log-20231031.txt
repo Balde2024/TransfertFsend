@@ -1,0 +1,81 @@
+2023-10-31 10:34:34.236 +00:00 [INF] Now listening on: https://localhost:7086
+2023-10-31 10:34:34.257 +00:00 [INF] Now listening on: http://localhost:5298
+2023-10-31 10:34:34.258 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 10:34:34.258 +00:00 [INF] Hosting environment: Development
+2023-10-31 10:34:34.258 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-10-31 10:34:34.409 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3305 ms
+2023-10-31 10:34:34.528 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 30.2385 ms
+2023-10-31 10:34:36.563 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3533 ms
+2023-10-31 10:34:36.568 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.9644 ms
+2023-10-31 10:34:46.692 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 25.1930 ms
+2023-10-31 10:34:46.697 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.5552 ms
+2023-10-31 10:35:06.748 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0928 ms
+2023-10-31 10:35:06.755 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.1183 ms
+2023-10-31 10:35:27.687 +00:00 [INF] Connexion de l'utilisateur sow@transfert.fr
+2023-10-31 10:35:29.049 +00:00 [INF] HTTP POST /api/Account/login responded 200 in 1559.4839 ms
+2023-10-31 10:35:37.642 +00:00 [INF] HTTP POST /api/Account/login responded 400 in 6.5584 ms
+2023-10-31 10:35:46.853 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.9999 ms
+2023-10-31 10:35:46.880 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1963 ms
+2023-10-31 11:20:43.926 +00:00 [INF] Now listening on: https://localhost:7086
+2023-10-31 11:20:43.946 +00:00 [INF] Now listening on: http://localhost:5298
+2023-10-31 11:20:43.947 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 11:20:43.948 +00:00 [INF] Hosting environment: Development
+2023-10-31 11:20:43.948 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-10-31 11:20:44.101 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2493 ms
+2023-10-31 11:20:44.220 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 30.3620 ms
+2023-10-31 11:20:46.229 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.4179 ms
+2023-10-31 11:20:46.256 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.8565 ms
+2023-10-31 11:20:56.350 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0915 ms
+2023-10-31 11:20:56.356 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.4292 ms
+2023-10-31 11:21:16.407 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0775 ms
+2023-10-31 11:21:16.412 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1868 ms
+2023-10-31 22:19:21.930 +00:00 [INF] Now listening on: https://localhost:7086
+2023-10-31 22:19:21.951 +00:00 [INF] Now listening on: http://localhost:5298
+2023-10-31 22:19:21.952 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 22:19:21.952 +00:00 [INF] Hosting environment: Development
+2023-10-31 22:19:21.952 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-10-31 22:19:22.056 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3058 ms
+2023-10-31 22:19:22.210 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.9380 ms
+2023-10-31 22:19:23.578 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Expediteur" for actions - ForSendKH.Controllers.ExpediteurController.GetExpediteurs (ForSendKH),ForSendKH.Controllers.ExpediteurController.GetPageExpediteurs (ForSendKH). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-31 22:19:24.243 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.6295 ms
+2023-10-31 22:19:24.245 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.7660 ms
+2023-10-31 22:19:34.351 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0609 ms
+2023-10-31 22:19:34.356 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.6654 ms
+2023-10-31 22:19:54.362 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0596 ms
+2023-10-31 22:19:54.392 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3499 ms
+2023-10-31 22:21:32.821 +00:00 [INF] Now listening on: https://localhost:7086
+2023-10-31 22:21:32.843 +00:00 [INF] Now listening on: http://localhost:5298
+2023-10-31 22:21:32.844 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-31 22:21:32.844 +00:00 [INF] Hosting environment: Development
+2023-10-31 22:21:32.844 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-10-31 22:21:32.945 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3037 ms
+2023-10-31 22:21:33.088 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.7611 ms
+2023-10-31 22:21:35.096 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.4790 ms
+2023-10-31 22:21:35.228 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.0580 ms
+2023-10-31 22:21:45.303 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0864 ms
+2023-10-31 22:21:45.311 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 4.5664 ms
+2023-10-31 22:22:05.411 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0717 ms
+2023-10-31 22:22:05.414 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1435 ms
+2023-10-31 22:22:17.254 +00:00 [INF] HTTP GET /api/Expediteur/GetAll responded 200 in 1018.0562 ms
+2023-10-31 22:22:45.521 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0902 ms
+2023-10-31 22:22:45.523 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1942 ms
+2023-10-31 22:22:49.336 +00:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-31 22:22:49.338 +00:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-31 22:22:49.390 +00:00 [INF] HTTP GET /api/Expediteur responded 200 in 200.9660 ms
+2023-10-31 22:24:05.652 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0883 ms
+2023-10-31 22:24:05.711 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.0992 ms
+2023-10-31 22:24:52.193 +00:00 [INF] HTTP GET /api/Expediteur responded 200 in 33.5192 ms
+2023-10-31 22:25:17.042 +00:00 [INF] HTTP GET /api/Expediteur responded 200 in 114.4151 ms
+2023-10-31 22:26:03.623 +00:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-31 22:26:03.624 +00:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-31 22:26:03.636 +00:00 [INF] HTTP GET /api/Expediteur responded 200 in 21.1176 ms
+2023-10-31 22:26:27.923 +00:00 [INF] HTTP GET /api/Expediteur responded 200 in 89.9403 ms
+2023-10-31 22:26:45.739 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0425 ms
+2023-10-31 22:26:45.878 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1707 ms

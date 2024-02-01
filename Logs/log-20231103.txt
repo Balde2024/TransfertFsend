@@ -1,0 +1,178 @@
+2023-11-03 12:08:10.956 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-03 12:08:10.978 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-03 12:08:10.978 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 12:08:10.979 +00:00 [INF] Hosting environment: Development
+2023-11-03 12:08:10.979 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-03 12:08:11.105 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3450 ms
+2023-11-03 12:08:11.229 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.0798 ms
+2023-11-03 12:08:13.237 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.8967 ms
+2023-11-03 12:08:13.240 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.8998 ms
+2023-11-03 12:08:22.703 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1409.1885 ms
+2023-11-03 12:08:23.269 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0449 ms
+2023-11-03 12:08:23.271 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1025 ms
+2023-11-03 12:08:43.399 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.2480 ms
+2023-11-03 12:08:43.430 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2163 ms
+2023-11-03 12:08:52.905 +00:00 [INF] HTTP PUT /api/Transfert/Executer responded 204 in 313.5677 ms
+2023-11-03 12:09:23.481 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.1410 ms
+2023-11-03 12:09:23.514 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1786 ms
+2023-11-03 12:09:27.629 +00:00 [INF] HTTP GET /api/Transfert/7 responded 200 in 36.1263 ms
+2023-11-03 12:11:31.488 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-03 12:11:31.511 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-03 12:11:31.512 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 12:11:31.512 +00:00 [INF] Hosting environment: Development
+2023-11-03 12:11:31.512 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-03 12:11:31.587 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3315 ms
+2023-11-03 12:11:31.829 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 40.6257 ms
+2023-11-03 12:11:33.859 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.4308 ms
+2023-11-03 12:11:33.865 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.7998 ms
+2023-11-03 12:11:43.868 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0718 ms
+2023-11-03 12:11:43.895 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.0876 ms
+2023-11-03 12:11:45.234 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1448.6103 ms
+2023-11-03 12:12:04.021 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1056 ms
+2023-11-03 12:12:04.026 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1853 ms
+2023-11-03 12:12:21.467 +00:00 [INF] HTTP PUT /api/Transfert/Executer responded 204 in 228.8858 ms
+2023-11-03 12:12:44.101 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 22.7605 ms
+2023-11-03 12:12:44.131 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 25.8616 ms
+2023-11-03 12:12:49.461 +00:00 [INF] HTTP GET /api/Transfert/5 responded 200 in 42.6745 ms
+2023-11-03 12:13:04.341 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 31.8975 ms
+2023-11-03 12:14:13.578 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-03 12:14:13.600 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-03 12:14:13.601 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 12:14:13.601 +00:00 [INF] Hosting environment: Development
+2023-11-03 12:14:13.601 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-03 12:14:13.703 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2627 ms
+2023-11-03 12:14:13.875 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.8115 ms
+2023-11-03 12:14:15.885 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.8136 ms
+2023-11-03 12:14:15.914 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.3954 ms
+2023-11-03 12:14:21.883 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1415.3647 ms
+2023-11-03 12:14:26.036 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.9352 ms
+2023-11-03 12:14:26.040 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2096 ms
+2023-11-03 12:14:45.750 +00:00 [INF] HTTP PUT /api/Transfert/Executer1 responded 204 in 224.7853 ms
+2023-11-03 12:14:46.093 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 25.1261 ms
+2023-11-03 12:14:46.095 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.0700 ms
+2023-11-03 12:14:59.711 +00:00 [INF] HTTP GET /api/Transfert/1 responded 200 in 39.9553 ms
+2023-11-03 12:27:55.037 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-03 12:27:55.061 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-03 12:27:55.062 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 12:27:55.062 +00:00 [INF] Hosting environment: Development
+2023-11-03 12:27:55.062 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-03 12:27:55.187 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2691 ms
+2023-11-03 12:27:55.363 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 35.8043 ms
+2023-11-03 12:27:57.374 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1637 ms
+2023-11-03 12:27:57.426 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.7057 ms
+2023-11-03 12:28:05.964 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1409.4762 ms
+2023-11-03 12:28:07.485 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0788 ms
+2023-11-03 12:28:07.489 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2258 ms
+2023-11-03 12:28:27.544 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1119 ms
+2023-11-03 12:28:27.603 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2736 ms
+2023-11-03 12:28:32.010 +00:00 [INF] HTTP PUT /api/Transfert/Executer9 responded 404 in 154.1224 ms
+2023-11-03 12:29:07.655 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0868 ms
+2023-11-03 12:29:07.659 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1540 ms
+2023-11-03 12:31:39.264 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-03 12:31:39.287 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-03 12:31:39.288 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 12:31:39.288 +00:00 [INF] Hosting environment: Development
+2023-11-03 12:31:39.288 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-03 12:31:39.363 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3085 ms
+2023-11-03 12:31:39.534 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.7169 ms
+2023-11-03 12:31:41.545 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.0216 ms
+2023-11-03 12:31:41.602 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.7924 ms
+2023-11-03 12:31:48.394 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1443.1433 ms
+2023-11-03 12:31:51.632 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0651 ms
+2023-11-03 12:31:51.634 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1611 ms
+2023-11-03 12:32:11.729 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 21.8836 ms
+2023-11-03 12:32:11.757 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2450 ms
+2023-11-03 12:32:46.082 +00:00 [INF] HTTP POST /api/Transfert responded 201 in 195.2199 ms
+2023-11-03 12:32:51.834 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 25.0555 ms
+2023-11-03 12:32:51.835 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1605 ms
+2023-11-03 12:33:18.202 +00:00 [INF] HTTP GET /api/Transfert/11 responded 200 in 99.8678 ms
+2023-11-03 14:23:04.966 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-03 14:23:04.987 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-03 14:23:04.988 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 14:23:04.988 +00:00 [INF] Hosting environment: Development
+2023-11-03 14:23:04.988 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-03 14:23:05.117 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3576 ms
+2023-11-03 14:23:05.236 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 32.9657 ms
+2023-11-03 14:23:07.247 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.7159 ms
+2023-11-03 14:23:07.251 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.6852 ms
+2023-11-03 14:23:23.385 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-03 14:23:23.406 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-03 14:23:23.407 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 14:23:23.408 +00:00 [INF] Hosting environment: Development
+2023-11-03 14:23:23.408 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-03 14:23:23.512 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2648 ms
+2023-11-03 14:23:23.631 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.5905 ms
+2023-11-03 14:23:25.641 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.5491 ms
+2023-11-03 14:23:25.671 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.9345 ms
+2023-11-03 14:23:31.296 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1426.9294 ms
+2023-11-03 14:23:35.678 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0434 ms
+2023-11-03 14:23:35.680 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1654 ms
+2023-11-03 14:23:55.758 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.8440 ms
+2023-11-03 14:23:55.785 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 22.3391 ms
+2023-11-03 14:26:52.640 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0345 ms
+2023-11-03 15:15:44.441 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-03 15:15:44.462 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-03 15:15:44.464 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 15:15:44.464 +00:00 [INF] Hosting environment: Development
+2023-11-03 15:15:44.464 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-03 15:15:44.588 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3145 ms
+2023-11-03 15:15:44.737 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.3330 ms
+2023-11-03 15:15:46.747 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.6580 ms
+2023-11-03 15:15:46.779 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.4680 ms
+2023-11-03 15:15:54.715 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1417.8930 ms
+2023-11-03 15:15:56.786 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0476 ms
+2023-11-03 15:15:56.788 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1628 ms
+2023-11-03 15:16:16.933 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0975 ms
+2023-11-03 15:16:16.964 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.7674 ms
+2023-11-03 15:16:27.057 +00:00 [INF] HTTP POST /api/Transfert responded 201 in 187.8572 ms
+2023-11-03 15:16:57.063 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1178 ms
+2023-11-03 15:16:57.094 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3404 ms
+2023-11-03 15:17:47.866 +00:00 [INF] HTTP PUT /api/Transfert/Executer12 responded 204 in 125.6445 ms
+2023-11-03 15:18:01.922 +00:00 [INF] HTTP GET /api/Transfert/12 responded 200 in 29.1675 ms
+2023-11-03 15:18:17.195 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0565 ms
+2023-11-03 15:18:17.338 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1599 ms
+2023-11-03 15:18:18.271 +00:00 [INF] HTTP PUT /api/Transfert/Executer12 responded 404 in 71.6687 ms
+2023-11-03 15:18:33.114 +00:00 [INF] HTTP GET /api/Transfert/GetInformationEP05EWPK responded 200 in 13.9348 ms
+2023-11-03 15:20:34.909 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-03 15:20:34.931 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-03 15:20:34.933 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 15:20:34.933 +00:00 [INF] Hosting environment: Development
+2023-11-03 15:20:34.933 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-03 15:20:35.087 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2684 ms
+2023-11-03 15:20:35.209 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.1300 ms
+2023-11-03 15:20:37.265 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.8948 ms
+2023-11-03 15:20:37.292 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.5437 ms
+2023-11-03 15:21:40.238 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-03 15:21:40.261 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-03 15:21:40.262 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 15:21:40.262 +00:00 [INF] Hosting environment: Development
+2023-11-03 15:21:40.262 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-03 15:21:40.413 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3356 ms
+2023-11-03 15:21:40.561 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.8104 ms
+2023-11-03 15:21:42.571 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.6666 ms
+2023-11-03 15:21:42.669 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.4292 ms
+2023-11-03 15:21:52.817 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 22.2714 ms
+2023-11-03 15:21:52.848 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.6122 ms
+2023-11-03 15:21:56.185 +00:00 [INF] HTTP POST /api/Transfert responded 201 in 1049.5136 ms
+2023-11-03 15:22:12.922 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0728 ms
+2023-11-03 15:22:12.927 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2433 ms
+2023-11-03 15:22:18.391 +00:00 [INF] HTTP PUT /api/Transfert/Executer13 responded 204 in 277.0548 ms
+2023-11-03 15:22:37.398 +00:00 [INF] HTTP GET /api/Transfert/13 responded 200 in 44.8321 ms
+2023-11-03 15:37:07.649 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-03 15:37:07.672 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-03 15:37:07.673 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 15:37:07.673 +00:00 [INF] Hosting environment: Development
+2023-11-03 15:37:07.674 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-03 15:37:07.746 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3376 ms
+2023-11-03 15:37:07.919 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.8968 ms
+2023-11-03 15:37:09.929 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.3070 ms
+2023-11-03 15:37:10.045 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.0965 ms
+2023-11-03 15:37:20.097 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1471 ms
+2023-11-03 15:37:20.103 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.8402 ms
+2023-11-03 15:37:21.684 +00:00 [INF] HTTP GET /api/Transfert/GetInformationA1S7H6QE responded 200 in 1065.2395 ms
+2023-11-03 15:37:40.179 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 24.5178 ms
+2023-11-03 15:37:40.232 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2944 ms
+2023-11-03 15:38:20.288 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0516 ms
+2023-11-03 15:38:20.294 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1770 ms
+2023-11-03 15:39:40.367 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0549 ms
+2023-11-03 15:39:40.460 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2301 ms

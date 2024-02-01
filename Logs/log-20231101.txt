@@ -1,0 +1,628 @@
+2023-11-01 11:28:20.397 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 11:28:20.418 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 11:28:20.419 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 11:28:20.419 +00:00 [INF] Hosting environment: Development
+2023-11-01 11:28:20.419 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 11:28:20.493 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3239 ms
+2023-11-01 11:28:20.618 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.5579 ms
+2023-11-01 11:28:22.675 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.1720 ms
+2023-11-01 11:28:22.680 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.2133 ms
+2023-11-01 11:28:32.708 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0448 ms
+2023-11-01 11:28:32.713 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.2880 ms
+2023-11-01 11:28:40.252 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1054.1704 ms
+2023-11-01 11:28:52.774 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0856 ms
+2023-11-01 11:28:52.778 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2200 ms
+2023-11-01 11:40:55.800 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 11:40:55.822 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 11:40:55.823 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 11:40:55.823 +00:00 [INF] Hosting environment: Development
+2023-11-01 11:40:55.823 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 11:40:55.948 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3598 ms
+2023-11-01 11:40:56.097 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.8573 ms
+2023-11-01 11:40:58.138 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.3807 ms
+2023-11-01 11:40:58.144 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.4444 ms
+2023-11-01 11:41:08.266 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 24.5443 ms
+2023-11-01 11:41:08.271 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.5958 ms
+2023-11-01 11:41:28.299 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0583 ms
+2023-11-01 11:41:28.305 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2112 ms
+2023-11-01 11:42:08.336 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0363 ms
+2023-11-01 11:42:08.339 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1471 ms
+2023-11-01 11:42:20.175 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1006.7984 ms
+2023-11-01 11:42:38.958 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ForSendKH.Controllers.TransfertController.GetTransfert (ForSendKH)
+ForSendKH.Controllers.TransfertController.GetTransfert (ForSendKH)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.SelectAsync(HttpContext httpContext, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-01 11:43:28.561 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0328 ms
+2023-11-01 11:43:28.664 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2539 ms
+2023-11-01 11:43:28.814 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ForSendKH.Controllers.TransfertController.GetTransfert (ForSendKH)
+ForSendKH.Controllers.TransfertController.GetTransfert (ForSendKH)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.SelectAsync(HttpContext httpContext, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-01 11:43:36.195 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ForSendKH.Controllers.TransfertController.GetTransfert (ForSendKH)
+ForSendKH.Controllers.TransfertController.GetTransfert (ForSendKH)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.SelectAsync(HttpContext httpContext, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-01 11:44:57.301 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 11:44:57.321 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 11:44:57.323 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 11:44:57.323 +00:00 [INF] Hosting environment: Development
+2023-11-01 11:44:57.323 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 11:44:57.452 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2851 ms
+2023-11-01 11:44:57.625 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 35.1785 ms
+2023-11-01 11:44:59.637 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 2.7448 ms
+2023-11-01 11:44:59.643 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.1340 ms
+2023-11-01 11:45:04.810 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1015.3953 ms
+2023-11-01 11:45:09.770 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0928 ms
+2023-11-01 11:45:09.773 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2007 ms
+2023-11-01 11:45:16.257 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ForSendKH.Controllers.TransfertController.GetInformationTransfert (ForSendKH)
+ForSendKH.Controllers.TransfertController.GetTransfert (ForSendKH)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.SelectAsync(HttpContext httpContext, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-01 11:45:29.851 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0470 ms
+2023-11-01 11:45:29.857 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1721 ms
+2023-11-01 11:45:30.137 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ForSendKH.Controllers.TransfertController.GetInformationTransfert (ForSendKH)
+ForSendKH.Controllers.TransfertController.GetTransfert (ForSendKH)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.SelectAsync(HttpContext httpContext, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-01 11:46:09.928 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.2768 ms
+2023-11-01 11:46:10.003 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.5501 ms
+2023-11-01 11:46:58.083 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ForSendKH.Controllers.TransfertController.GetInformationTransfert (ForSendKH)
+ForSendKH.Controllers.TransfertController.GetTransfert (ForSendKH)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.SelectAsync(HttpContext httpContext, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-01 11:48:14.144 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 11:48:14.166 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 11:48:14.167 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 11:48:14.167 +00:00 [INF] Hosting environment: Development
+2023-11-01 11:48:14.167 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 11:48:14.263 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3445 ms
+2023-11-01 11:48:14.386 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.5143 ms
+2023-11-01 11:48:16.421 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.1823 ms
+2023-11-01 11:48:16.424 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.3198 ms
+2023-11-01 11:48:24.753 +00:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2023-11-01 11:48:25.160 +00:00 [INF] HTTP GET /api/Transfert/Balde3667 responded 200 in 1143.5043 ms
+2023-11-01 11:48:26.497 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0728 ms
+2023-11-01 11:48:26.502 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2525 ms
+2023-11-01 11:48:46.559 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1824 ms
+2023-11-01 11:48:46.583 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1950 ms
+2023-11-01 11:49:15.861 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 52.2277 ms
+2023-11-01 11:49:26.614 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0620 ms
+2023-11-01 11:49:26.644 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2775 ms
+2023-11-01 11:50:46.910 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0932 ms
+2023-11-01 11:50:47.052 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2293 ms
+2023-11-01 11:53:21.261 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 11:53:21.283 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 11:53:21.284 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 11:53:21.284 +00:00 [INF] Hosting environment: Development
+2023-11-01 11:53:21.284 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 11:53:21.385 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2727 ms
+2023-11-01 11:53:21.534 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.7434 ms
+2023-11-01 11:53:23.542 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.4057 ms
+2023-11-01 11:53:23.546 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.0806 ms
+2023-11-01 11:53:31.996 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ForSendKH.Controllers.TransfertController.GetInformationTransfert (ForSendKH)
+ForSendKH.Controllers.TransfertController.GetTransfert (ForSendKH)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.SelectAsync(HttpContext httpContext, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-01 11:53:33.695 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 24.9727 ms
+2023-11-01 11:53:33.702 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.6716 ms
+2023-11-01 11:53:53.832 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0620 ms
+2023-11-01 11:53:53.864 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1873 ms
+2023-11-01 11:54:33.917 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0393 ms
+2023-11-01 11:54:33.922 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2162 ms
+2023-11-01 11:55:54.053 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0630 ms
+2023-11-01 11:55:54.170 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3131 ms
+2023-11-01 11:57:10.676 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 11:57:10.697 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 11:57:10.698 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 11:57:10.698 +00:00 [INF] Hosting environment: Development
+2023-11-01 11:57:10.698 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 11:57:10.826 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3680 ms
+2023-11-01 11:57:10.977 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.7348 ms
+2023-11-01 11:57:13.033 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.7520 ms
+2023-11-01 11:57:13.036 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.4896 ms
+2023-11-01 11:57:23.151 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1530 ms
+2023-11-01 11:57:23.157 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.5899 ms
+2023-11-01 11:57:25.500 +00:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2023-11-01 11:57:25.883 +00:00 [INF] HTTP GET /api/Transfert/GetInformationBalde3667 responded 200 in 1127.0793 ms
+2023-11-01 11:57:43.259 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.2675 ms
+2023-11-01 11:57:43.289 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.4683 ms
+2023-11-01 11:57:51.960 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 47.9991 ms
+2023-11-01 11:58:23.410 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1018 ms
+2023-11-01 11:58:23.443 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3328 ms
+2023-11-01 11:58:40.426 +00:00 [INF] HTTP GET /api/Transfert/GetInformation7A7NNESW responded 200 in 60.9050 ms
+2023-11-01 11:59:15.219 +00:00 [INF] HTTP GET /api/Transfert/GetInformation7A7NNESW responded 200 in 36.6468 ms
+2023-11-01 12:01:19.432 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 12:01:19.453 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 12:01:19.454 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 12:01:19.454 +00:00 [INF] Hosting environment: Development
+2023-11-01 12:01:19.454 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 12:01:19.604 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2749 ms
+2023-11-01 12:01:19.754 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.7195 ms
+2023-11-01 12:01:21.789 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.4613 ms
+2023-11-01 12:01:21.838 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.6018 ms
+2023-11-01 12:01:30.645 +00:00 [INF] HTTP GET /api/Transfert/GetInformation7A7NNESW responded 200 in 1136.5325 ms
+2023-11-01 12:01:31.892 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0608 ms
+2023-11-01 12:01:31.895 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1540 ms
+2023-11-01 12:01:41.655 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 47.8305 ms
+2023-11-01 12:01:51.900 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1387 ms
+2023-11-01 12:01:51.904 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2021 ms
+2023-11-01 12:02:03.349 +00:00 [INF] HTTP GET /api/Transfert/GetInformationCDRHU77D responded 200 in 58.6955 ms
+2023-11-01 12:02:31.934 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0427 ms
+2023-11-01 12:02:31.988 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1416 ms
+2023-11-01 12:03:02.083 +00:00 [INF] HTTP GET /api/Transfert/GetInformationBalde3667 responded 200 in 28.9915 ms
+2023-11-01 12:03:52.111 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0440 ms
+2023-11-01 12:03:52.244 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1727 ms
+2023-11-01 12:10:43.108 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 12:10:43.130 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 12:10:43.131 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 12:10:43.131 +00:00 [INF] Hosting environment: Development
+2023-11-01 12:10:43.131 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 12:10:43.333 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2595 ms
+2023-11-01 12:10:43.455 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.6140 ms
+2023-11-01 12:10:45.463 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.3769 ms
+2023-11-01 12:10:45.492 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.0172 ms
+2023-11-01 12:10:55.568 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.2158 ms
+2023-11-01 12:10:55.574 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.1019 ms
+2023-11-01 12:11:00.188 +00:00 [INF] HTTP GET /api/Transfert/GetInformationBalde3667 responded 200 in 1115.0415 ms
+2023-11-01 12:11:09.991 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 50.9208 ms
+2023-11-01 12:11:15.677 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.6669 ms
+2023-11-01 12:11:15.680 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2109 ms
+2023-11-01 12:11:47.241 +00:00 [INF] HTTP GET /api/Transfert/1 responded 200 in 73.6801 ms
+2023-11-01 12:11:55.779 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1838 ms
+2023-11-01 12:11:55.808 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1973 ms
+2023-11-01 12:16:10.982 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 12:16:11.005 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 12:16:11.005 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 12:16:11.005 +00:00 [INF] Hosting environment: Development
+2023-11-01 12:16:11.005 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 12:16:11.184 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3149 ms
+2023-11-01 12:16:11.308 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.5346 ms
+2023-11-01 12:16:13.387 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 22.8122 ms
+2023-11-01 12:16:13.414 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.3455 ms
+2023-11-01 12:16:21.524 +00:00 [INF] HTTP GET /api/Transfert/GetInformationBalde3667 responded 200 in 1087.1320 ms
+2023-11-01 12:16:23.520 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0494 ms
+2023-11-01 12:16:23.522 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1848 ms
+2023-11-01 12:16:43.650 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0453 ms
+2023-11-01 12:16:43.680 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3578 ms
+2023-11-01 12:17:23.732 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.0015 ms
+2023-11-01 12:17:23.737 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1965 ms
+2023-11-01 12:18:43.748 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0365 ms
+2023-11-01 12:18:43.835 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2407 ms
+2023-11-01 12:22:39.391 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 21.7835 ms
+2023-11-01 12:22:39.606 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1661 ms
+2023-11-01 12:25:03.344 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 12:25:03.365 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 12:25:03.366 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 12:25:03.366 +00:00 [INF] Hosting environment: Development
+2023-11-01 12:25:03.366 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 12:25:03.515 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3919 ms
+2023-11-01 12:25:03.638 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.0780 ms
+2023-11-01 12:25:05.672 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.9604 ms
+2023-11-01 12:25:05.726 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.9479 ms
+2023-11-01 12:25:15.824 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.3684 ms
+2023-11-01 12:25:15.830 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.9958 ms
+2023-11-01 12:25:27.585 +00:00 [INF] HTTP POST /api/Transfert responded 201 in 1061.6236 ms
+2023-11-01 12:25:35.909 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0550 ms
+2023-11-01 12:25:35.912 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1868 ms
+2023-11-01 12:26:09.899 +00:00 [INF] HTTP GET /api/Transfert/GetInformation4UL8K7J4 responded 200 in 232.7966 ms
+2023-11-01 12:26:16.029 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 20.5921 ms
+2023-11-01 12:26:16.058 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3680 ms
+2023-11-01 12:27:36.206 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0631 ms
+2023-11-01 12:27:36.319 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1418 ms
+2023-11-01 12:30:16.377 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.8918 ms
+2023-11-01 12:30:16.543 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2145 ms
+2023-11-01 14:09:32.980 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 14:09:33.001 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 14:09:33.002 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 14:09:33.002 +00:00 [INF] Hosting environment: Development
+2023-11-01 14:09:33.002 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 14:09:33.127 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3787 ms
+2023-11-01 14:09:33.276 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.5876 ms
+2023-11-01 14:09:35.316 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1652 ms
+2023-11-01 14:09:35.319 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.3357 ms
+2023-11-01 14:09:45.422 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0963 ms
+2023-11-01 14:09:45.429 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 4.3841 ms
+2023-11-01 14:10:00.296 +00:00 [ERR] Failed executing DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[BeneficiereId], [t].[CodeDeRetrait], [t].[Commission], [t].[DateDeTransmission], [t].[DateDuTransfert], [t].[EtatDuTransfert], [t].[ExpediteurId], [t].[Montant]
+FROM [Transferts] AS [t]
+2023-11-01 14:10:00.311 +00:00 [ERR] An exception occurred while iterating over the results of a query for context type 'ForSendKH.DataContext.TransfertDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'DateDeTransmission'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:4af7fe2b-4fef-41e2-a730-8681fa0b4704
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'DateDeTransmission'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:4af7fe2b-4fef-41e2-a730-8681fa0b4704
+Error Number:207,State:1,Class:16
+2023-11-01 14:10:00.478 +00:00 [ERR] HTTP GET /api/Transfert responded 500 in 1144.0250 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'DateDeTransmission'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAllAsync() in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 45
+   at ForSendKH.Controllers.TransfertController.GetTransferts() in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 33
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_8>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 129
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:4af7fe2b-4fef-41e2-a730-8681fa0b4704
+Error Number:207,State:1,Class:16
+2023-11-01 14:10:00.539 +00:00 [ERR] Something Went while processing /api/Transfert
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'DateDeTransmission'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at ForSendKH.Repository.GenericRepository`1.GetAllAsync() in /Users/balde/Projects/ForSendKH/ForSendKH/Repository/GenericRepository.cs:line 45
+   at ForSendKH.Controllers.TransfertController.GetTransferts() in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 33
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_8>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 129
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+ClientConnectionId:4af7fe2b-4fef-41e2-a730-8681fa0b4704
+Error Number:207,State:1,Class:16
+2023-11-01 14:10:05.468 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0355 ms
+2023-11-01 14:10:05.495 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2987 ms
+2023-11-01 14:11:49.574 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 14:11:49.596 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 14:11:49.597 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 14:11:49.597 +00:00 [INF] Hosting environment: Development
+2023-11-01 14:11:49.597 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 14:11:49.670 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3509 ms
+2023-11-01 14:11:49.794 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 32.9596 ms
+2023-11-01 14:11:51.832 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2350 ms
+2023-11-01 14:11:51.838 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.7013 ms
+2023-11-01 14:11:57.660 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1034.2431 ms
+2023-11-01 14:12:01.917 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0997 ms
+2023-11-01 14:12:01.921 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3404 ms
+2023-11-01 14:12:21.999 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1088 ms
+2023-11-01 14:12:22.006 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1564 ms
+2023-11-01 14:13:02.079 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 22.1433 ms
+2023-11-01 14:13:02.135 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 25.5870 ms
+2023-11-01 14:13:10.428 +00:00 [INF] HTTP POST /api/Transfert responded 201 in 218.5272 ms
+2023-11-01 14:14:22.193 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0323 ms
+2023-11-01 14:14:22.263 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1563 ms
+2023-11-01 14:14:28.870 +00:00 [INF] HTTP PUT /api/Transfert/Executer9 responded 401 in 13.1473 ms
+2023-11-01 14:14:55.505 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 14:14:55.527 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 14:14:55.528 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 14:14:55.528 +00:00 [INF] Hosting environment: Development
+2023-11-01 14:14:55.528 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 14:14:55.680 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3554 ms
+2023-11-01 14:14:55.854 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.3439 ms
+2023-11-01 14:14:57.864 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.8528 ms
+2023-11-01 14:14:57.867 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.4250 ms
+2023-11-01 14:15:07.995 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 24.4883 ms
+2023-11-01 14:15:08.002 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 4.2790 ms
+2023-11-01 14:15:14.021 +00:00 [INF] HTTP PUT /api/Transfert/Executer9 responded 400 in 209.3747 ms
+2023-11-01 14:15:28.055 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0974 ms
+2023-11-01 14:15:28.057 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.8200 ms
+2023-11-01 14:15:28.362 +00:00 [ERR] HTTP PUT /api/Transfert/Executer9 responded 500 in 1087.5467 ms
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ExecuteTransactDto -> Transfert
+ForSendKH.Models.ModelsDto.Transfert.ExecuteTransactDto -> ForSendKH.Models.Transfert
+   at lambda_method92(Closure, ExecuteTransactDto, Transfert, ResolutionContext)
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 137
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_8>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 129
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-11-01 14:15:28.423 +00:00 [ERR] Something Went while processing /api/Transfert/Executer9
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ExecuteTransactDto -> Transfert
+ForSendKH.Models.ModelsDto.Transfert.ExecuteTransactDto -> ForSendKH.Models.Transfert
+   at lambda_method92(Closure, ExecuteTransactDto, Transfert, ResolutionContext)
+   at ForSendKH.Controllers.TransfertController.PutExecuteTransfert(Int32 id, ExecuteTransactDto executeTransact) in /Users/balde/Projects/ForSendKH/ForSendKH/Controllers/TransfertController.cs:line 137
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_8>d.MoveNext() in /Users/balde/Projects/ForSendKH/ForSendKH/Program.cs:line 129
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at ForSendKH.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/balde/Projects/ForSendKH/ForSendKH/Middleware/ExceptionMiddleware.cs:line 23
+2023-11-01 14:16:08.067 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0376 ms
+2023-11-01 14:16:08.169 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 22.8906 ms
+2023-11-01 14:18:23.616 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 14:18:23.637 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 14:18:23.638 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 14:18:23.639 +00:00 [INF] Hosting environment: Development
+2023-11-01 14:18:23.639 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 14:18:23.766 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3023 ms
+2023-11-01 14:18:23.946 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 38.8490 ms
+2023-11-01 14:18:26.006 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 25.9971 ms
+2023-11-01 14:18:26.057 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.4732 ms
+2023-11-01 14:18:36.139 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0890 ms
+2023-11-01 14:18:36.145 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.8438 ms
+2023-11-01 14:18:53.992 +00:00 [INF] HTTP GET /api/Transfert/9 responded 200 in 1088.2519 ms
+2023-11-01 14:18:56.177 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0658 ms
+2023-11-01 14:18:56.181 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2551 ms
+2023-11-01 14:19:36.187 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0367 ms
+2023-11-01 14:19:36.188 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1626 ms
+2023-11-01 14:19:57.225 +00:00 [INF] HTTP PUT /api/Transfert/Executer9 responded 204 in 171.9083 ms
+2023-11-01 14:20:09.674 +00:00 [INF] HTTP GET /api/Transfert/9 responded 200 in 32.1101 ms
+2023-11-01 14:20:22.753 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 141.9328 ms
+2023-11-01 14:20:56.219 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0526 ms
+2023-11-01 14:20:56.340 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2149 ms
+2023-11-01 14:23:20.144 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 14:23:20.165 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 14:23:20.166 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 14:23:20.166 +00:00 [INF] Hosting environment: Development
+2023-11-01 14:23:20.166 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 14:23:20.295 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3143 ms
+2023-11-01 14:23:20.418 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.8462 ms
+2023-11-01 14:23:22.472 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.0605 ms
+2023-11-01 14:23:22.477 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.1269 ms
+2023-11-01 14:23:30.293 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1021.8555 ms
+2023-11-01 14:23:32.556 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.2012 ms
+2023-11-01 14:23:32.560 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2432 ms
+2023-11-01 14:23:52.660 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0850 ms
+2023-11-01 14:23:52.687 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3151 ms
+2023-11-01 14:24:32.742 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 25.5163 ms
+2023-11-01 14:24:32.746 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1630 ms
+2023-11-01 14:25:52.947 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0640 ms
+2023-11-01 14:25:53.041 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2914 ms
+2023-11-01 14:28:33.209 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0673 ms
+2023-11-01 14:28:33.481 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2084 ms
+2023-11-01 15:01:35.466 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 15:01:35.487 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 15:01:35.488 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 15:01:35.488 +00:00 [INF] Hosting environment: Development
+2023-11-01 15:01:35.488 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 15:01:35.639 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3629 ms
+2023-11-01 15:01:35.790 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.2409 ms
+2023-11-01 15:01:37.823 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2048 ms
+2023-11-01 15:01:37.829 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.4064 ms
+2023-11-01 15:01:44.249 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1056.9518 ms
+2023-11-01 15:01:47.929 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0774 ms
+2023-11-01 15:01:47.932 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1723 ms
+2023-11-01 15:02:08.055 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0428 ms
+2023-11-01 15:02:08.058 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1711 ms
+2023-11-01 15:02:19.860 +00:00 [INF] HTTP PUT /api/Transfert/Executer9 responded 204 in 284.5396 ms
+2023-11-01 15:02:46.286 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 196.9933 ms
+2023-11-01 15:02:48.139 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0789 ms
+2023-11-01 15:02:48.142 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1339 ms
+2023-11-01 15:03:01.592 +00:00 [INF] HTTP PUT /api/Transfert/Executer9 responded 204 in 21.8450 ms
+2023-11-01 15:04:48.045 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 15:04:48.067 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 15:04:48.068 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 15:04:48.068 +00:00 [INF] Hosting environment: Development
+2023-11-01 15:04:48.068 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 15:04:48.167 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3376 ms
+2023-11-01 15:04:48.347 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.1370 ms
+2023-11-01 15:04:50.380 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.5326 ms
+2023-11-01 15:04:50.384 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.6872 ms
+2023-11-01 15:05:00.438 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0453 ms
+2023-11-01 15:05:00.443 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.7691 ms
+2023-11-01 15:05:15.811 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1005.2257 ms
+2023-11-01 15:05:20.451 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0398 ms
+2023-11-01 15:05:20.457 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1914 ms
+2023-11-01 15:05:34.649 +00:00 [INF] HTTP PUT /api/Transfert/Executer9 responded 204 in 218.8997 ms
+2023-11-01 15:06:00.491 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0439 ms
+2023-11-01 15:06:00.521 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1965 ms
+2023-11-01 15:06:00.955 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 53.7985 ms
+2023-11-01 15:06:35.534 +00:00 [INF] HTTP PUT /api/Transfert/Executer8 responded 204 in 167.8183 ms
+2023-11-01 15:09:54.624 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 15:09:54.646 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 15:09:54.647 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 15:09:54.647 +00:00 [INF] Hosting environment: Development
+2023-11-01 15:09:54.647 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 15:09:54.747 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3257 ms
+2023-11-01 15:09:54.870 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.5620 ms
+2023-11-01 15:09:56.903 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.6727 ms
+2023-11-01 15:09:56.906 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.3813 ms
+2023-11-01 15:10:02.882 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1023.9117 ms
+2023-11-01 15:10:07.026 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0979 ms
+2023-11-01 15:10:07.030 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2961 ms
+2023-11-01 15:10:27.111 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0573 ms
+2023-11-01 15:10:27.114 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1493 ms
+2023-11-01 15:10:29.195 +00:00 [INF] HTTP PUT /api/Transfert/Executer9 responded 400 in 44.7360 ms
+2023-11-01 15:11:28.285 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0516 ms
+2023-11-01 15:11:28.287 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.0875 ms
+2023-11-01 15:11:28.425 +00:00 [INF] HTTP PUT /api/Transfert/Executer9 responded 204 in 49807.9545 ms
+2023-11-01 15:12:06.576 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 15:12:06.597 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 15:12:06.598 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 15:12:06.599 +00:00 [INF] Hosting environment: Development
+2023-11-01 15:12:06.599 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 15:12:06.752 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3253 ms
+2023-11-01 15:12:06.951 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.2900 ms
+2023-11-01 15:12:08.983 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.6377 ms
+2023-11-01 15:12:09.033 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.2660 ms
+2023-11-01 15:12:19.128 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0491 ms
+2023-11-01 15:12:19.133 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.8566 ms
+2023-11-01 15:12:43.906 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.1062 ms
+2023-11-01 15:12:43.913 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1298 ms
+2023-11-01 15:15:02.068 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 15:15:02.089 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 15:15:02.090 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 15:15:02.090 +00:00 [INF] Hosting environment: Development
+2023-11-01 15:15:02.090 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 15:15:02.237 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2573 ms
+2023-11-01 15:15:02.356 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 33.6065 ms
+2023-11-01 15:15:04.365 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.8728 ms
+2023-11-01 15:15:04.443 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.5075 ms
+2023-11-01 15:15:14.518 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0504 ms
+2023-11-01 15:15:14.523 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 3.8013 ms
+2023-11-01 15:15:35.337 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0597 ms
+2023-11-01 15:15:35.463 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3610 ms
+2023-11-01 15:16:18.052 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 21.2410 ms
+2023-11-01 15:16:18.196 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1898 ms
+2023-11-01 15:16:32.951 +00:00 [INF] HTTP PUT /api/Transfert/Executer9 responded 204 in 75141.4687 ms
+2023-11-01 16:15:03.767 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 16:15:03.788 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 16:15:03.789 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 16:15:03.789 +00:00 [INF] Hosting environment: Development
+2023-11-01 16:15:03.789 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 16:15:03.939 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.2745 ms
+2023-11-01 16:15:04.092 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 35.0616 ms
+2023-11-01 16:15:06.127 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 23.6226 ms
+2023-11-01 16:15:06.130 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.5568 ms
+2023-11-01 16:15:16.178 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0642 ms
+2023-11-01 16:15:16.184 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 2.8767 ms
+2023-11-01 16:15:17.695 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1415.7959 ms
+2023-11-01 16:15:36.189 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0409 ms
+2023-11-01 16:15:36.192 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.1574 ms
+2023-11-01 16:18:40.544 +00:00 [INF] Now listening on: https://localhost:7086
+2023-11-01 16:18:40.565 +00:00 [INF] Now listening on: http://localhost:5298
+2023-11-01 16:18:40.566 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-01 16:18:40.566 +00:00 [INF] Hosting environment: Development
+2023-11-01 16:18:40.566 +00:00 [INF] Content root path: /Users/balde/Projects/ForSendKH/ForSendKH
+2023-11-01 16:18:40.718 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 1.3171 ms
+2023-11-01 16:18:40.872 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 34.2896 ms
+2023-11-01 16:18:42.880 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.4915 ms
+2023-11-01 16:18:42.934 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 1.7060 ms
+2023-11-01 16:18:51.065 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 1418.3402 ms
+2023-11-01 16:18:52.986 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0413 ms
+2023-11-01 16:18:52.990 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2371 ms
+2023-11-01 16:19:13.061 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0404 ms
+2023-11-01 16:19:13.065 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2202 ms
+2023-11-01 16:19:53.075 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0306 ms
+2023-11-01 16:19:53.131 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.3829 ms
+2023-11-01 16:20:16.317 +00:00 [INF] HTTP GET /api/Transfert responded 200 in 58.9566 ms
+2023-11-01 16:55:02.380 +00:00 [INF] HTTP POST /api/events/raw responded 307 in 0.0436 ms
+2023-11-01 16:55:02.530 +00:00 [INF] HTTP POST /api/events/raw responded 404 in 0.2231 ms
